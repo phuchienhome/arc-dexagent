@@ -1,0 +1,4 @@
+from arc_dex_agent import ArcDEXAgent
+
+agent = ArcDEXAgent()
+agent.create_dex_market(token_address="0x...", amount_token=1000, amount_usdc=1000)
